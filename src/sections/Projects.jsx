@@ -16,7 +16,7 @@ const projects = [
   {
     title: "Personal Portfolio",
     description: "A responsive personal portfolio.",
-    image: "/projects/project1.png",
+    image: "/projects/project2.jpeg",
     tags: ["ReactJS", "TailwindCSS"],
     link: "#",
     github: "#",
