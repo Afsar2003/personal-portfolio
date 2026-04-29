@@ -19,7 +19,7 @@ const projects = [
     image: "/projects/project2.jpeg",
     tags: ["ReactJS", "TailwindCSS"],
     link: "#",
-    github: "#",
+    github: "https://github.com/Afsar2003/personal-portfolio",
   },
 
   {
