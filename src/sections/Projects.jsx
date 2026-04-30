@@ -18,7 +18,7 @@ const projects = [
     description: "A responsive personal portfolio.",
     image: "/projects/project2.jpeg",
     tags: ["ReactJS", "TailwindCSS"],
-    link: "#",
+    link: "https://personal-portfolio-coral-two-20.vercel.app",
     github: "https://github.com/Afsar2003/personal-portfolio",
   },
 
