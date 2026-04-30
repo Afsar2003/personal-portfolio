@@ -88,22 +88,16 @@ export const Hero = () => {
                 </Button>
               </a>
 
-              <AnimatedBorderButton>
-                <a
-                  href="https://drive.google.com/file/d/1K7CJ6WKC6oFzY1XOmi8eRkx1PZ8u7gUc/view?usp=sharing"
-                  target="_blank"
-                  rel="noreferrer"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    window.open(
-                      "https://drive.google.com/file/d/1K7CJ6WKC6oFzY1XOmi8eRkx1PZ8u7gUc/view?usp=sharing",
-                      "_blank",
-                    );
-                  }}
-                >
-                  <Download className="w-5 h-5" />
-                  <span className="text-center">Download CV</span>
-                </a>
+              <AnimatedBorderButton
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/1K7CJ6WKC6oFzY1XOmi8eRkx1PZ8u7gUc/view?usp=sharing",
+                    "_blank",
+                  )
+                }
+              >
+                <Download className="w-5 h-5" />
+                <span className="text-center">Download CV</span>
               </AnimatedBorderButton>
             </div>
 
