@@ -90,8 +90,7 @@ export const Hero = () => {
 
               <AnimatedBorderButton>
                 <a
-                  href="https://drive.google.com/uc?export=download&id=1K7CJ6WKC6oFzY1XOmi8eRkx1PZ8u7gUc"
-                  download="Sk_Md_Afsaruddin_Resume.pdf"
+                  href="https://drive.google.com/file/d/1K7CJ6WKC6oFzY1XOmi8eRkx1PZ8u7gUc/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
