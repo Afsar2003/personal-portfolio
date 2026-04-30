@@ -89,7 +89,7 @@ export const Hero = () => {
               </a>
 
               <AnimatedBorderButton>
-                <a href="/Sk_Md_Afsaruddin_Resume.pdf" download>
+                <a href="/Sk_Md_Afsaruddin_resume.pdf" download>
                   <Download className="w-5 h-5" />
                   <span className="text-center">Download CV</span>
                 </a>
