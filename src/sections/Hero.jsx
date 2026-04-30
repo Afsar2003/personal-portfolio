@@ -89,7 +89,12 @@ export const Hero = () => {
               </a>
 
               <AnimatedBorderButton>
-                <a href="/Sk_Md_Afsaruddin_resume.pdf" download>
+                <a
+                  href="https://drive.google.com/uc?export=download&id=1K7CJ6WKC6oFzY1XOmi8eRkx1PZ8u7gUc"
+                  download="Sk_Md_Afsaruddin_Resume.pdf"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <Download className="w-5 h-5" />
                   <span className="text-center">Download CV</span>
                 </a>
