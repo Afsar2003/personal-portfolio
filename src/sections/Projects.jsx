@@ -7,10 +7,10 @@ const projects = [
     title: "Gen AI + Full Stack Web Development Project",
     description:
       "A real-world product where users can upload their resumes, analyze job descriptions, detect skill gaps, and generate AI-powered interview questions and ATS-optimized resumes.",
-    image: "/projects/project1.png",
-    tags: ["React", "NodeJS", "JWT", "Gemini"],
-    link: "#",
-    github: "#",
+    image: "/projects/project3.jpeg",
+    tags: ["React", "NodeJS", "JWT", "Gemini", "MongoDB"],
+    link: "https://full-stack-gen-ai-weld.vercel.app",
+    github: "https://github.com/Afsar2003/full-stack-gen-ai",
   },
 
   {
