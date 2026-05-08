@@ -15,7 +15,8 @@ const projects = [
 
   {
     title: "Personal Portfolio",
-    description: "A responsive personal portfolio.",
+    description:
+      "A responsive personal portfolio using ReactJS and TailwindCSS.",
     image: "/projects/project2.jpeg",
     tags: ["ReactJS", "TailwindCSS"],
     link: "https://personal-portfolio-coral-two-20.vercel.app",
@@ -23,23 +24,25 @@ const projects = [
   },
 
   {
-    title: "Weather App",
-    description: "Weather",
-    image: "/projects/project1.png",
-    tags: ["ReactJS", "TailwindCSS"],
-    link: "#",
-    github: "#",
+    title: "Login Page UI",
+    description:
+      "A modern built a fully functional Login & Register Page UI from scratch using HTML, CSS, and JavaScript — no frameworks, just pure code. The UI features a custom cursor effect with a glowing particle trail that follows your mouse, and an animated dark theme with soft glowing orbs floating in the background, giving it a deep space aesthetic.",
+    image: "/projects/project4.jpeg",
+    tags: ["HTML", "CSS", "JavaScript"],
+    link: "https://afsar2003.github.io/synent-task3-login-page-ui-afsar/",
+    github: "https://github.com/Afsar2003/synent-task3-login-page-ui-afsar",
   },
 
   {
-    title: "Full Stack App",
-    description: "New Full Stack",
-    image: "/projects/project1.png",
-    tags: ["ReactJS", "TailwindCSS"],
-    link: "#",
-    github: "#",
+    title: "Woosh - A To Do Web App",
+    description:
+      "A fully functional task management app with a retro-futuristic terminal UI, add, complete, and delete tasks with smooth animations and live clock, efficiency progress bar & HUD stats",
+    image: "/projects/project5.jpeg",
+    tags: ["HTML", "CSS", "JavaScript"],
+    link: "https://afsar2003.github.io/synent-task5-todoapp-afsar/",
+    github: "https://github.com/Afsar2003/synent-task5-todoapp-afsar",
   },
-
+  /*
   {
     title: "Event Management System",
     description: "The system is done through Salesforce.",
@@ -57,6 +60,7 @@ const projects = [
     link: "#",
     github: "#",
   },
+  */
 ];
 
 export const Projects = () => {
