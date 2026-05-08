@@ -9,6 +9,7 @@ const issuerIcons = {
   "LinkedIn Learning": <FaLinkedin className="text-blue-500" />,
   Anthropic: <FaCode className="text-purple-400" />,
   Scholarhat: <FaCertificate className="text-yellow-400" />,
+  IBM: <FaCode className="text-blue-400" />,
 };
 
 const certificates = [
@@ -67,7 +68,7 @@ const certificates = [
   {
     title: "Docker Essentials: A Developer Introduction",
     issuer: "IBM",
-    image: "/certificates_pics/docker_essentials_developer_introduction.jpeg",
+    image: "/certificates_pics/docker_essentials_a_developer_introduction.jpeg",
     link: "https://courses.cognitiveclass.ai/certificates/24731c6c02ff4db687b1c768a03268b4",
   },
 ];
