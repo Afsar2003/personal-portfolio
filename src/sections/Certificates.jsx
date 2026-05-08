@@ -57,6 +57,19 @@ const certificates = [
     image: "/certificates_pics/react.js_essential_trainning.jpeg",
     link: "https://www.linkedin.com/learning/certificates/bb4d25d107986b789874a3f00ba8ec7e10c2fcc0fd4d554b415ae2d3fdca6528?u=229219690",
   },
+  {
+    title: "Docker Foundations Professional Certificate",
+    issuer: "LinkedIn Learning",
+    image:
+      "/certificates_pics/docker_foundations_professional_certificate.jpeg",
+    link: "https://www.linkedin.com/learning/certificates/c3ae906699ec42603c23c24dbf3c647d76597ed85a80593b59d51eeb979097ab?u=229219690",
+  },
+  {
+    title: "Docker Essentials: A Developer Introduction",
+    issuer: "IBM",
+    image: "/certificates_pics/docker_essentials_developer_introduction.jpeg",
+    link: "https://courses.cognitiveclass.ai/certificates/24731c6c02ff4db687b1c768a03268b4",
+  },
 ];
 
 export const Certificates = () => {
