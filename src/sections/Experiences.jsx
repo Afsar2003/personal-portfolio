@@ -1,6 +1,6 @@
 const experiences = [
   {
-    period: "2026 — Present",
+    period: "April 2026 - May 2026",
     role: "Web Development Intern",
     company: "Synent Technologies.",
     description:
@@ -15,6 +15,21 @@ const experiences = [
       "JWT",
       "MongoDB",
       "RestAPI",
+    ],
+    current: true,
+  },
+  {
+    period: "June 2026 - Present",
+    role: "Security Analyst Intern",
+    company: "Oasis Infobyte.",
+    description:
+      "Working as a Security Analyst Intern, focusing on identifying and mitigating potential security threats. Gaining hands-on experience in security protocols, risk assessment, and compliance.",
+    technologies: [
+      "Python",
+      "SQL",
+      "Network Security",
+      "Penetration Testing",
+      "SIEM",
     ],
     current: true,
   },
