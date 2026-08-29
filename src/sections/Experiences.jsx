@@ -16,7 +16,7 @@ const experiences = [
       "MongoDB",
       "RestAPI",
     ],
-    current: true,
+    current: false,
   },
   {
     period: "June 2026 - Present",
