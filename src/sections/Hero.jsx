@@ -90,10 +90,7 @@ export const Hero = () => {
 
               <AnimatedBorderButton
                 onClick={() =>
-                  window.open(
-                    "https://drive.google.com/file/d/1K7CJ6WKC6oFzY1XOmi8eRkx1PZ8u7gUc/view?usp=sharing",
-                    "_blank",
-                  )
+                  window.open("/Sk_Md_Afsaruddin_Resume.pdf", "_blank")
                 }
               >
                 <Download className="w-5 h-5" />
