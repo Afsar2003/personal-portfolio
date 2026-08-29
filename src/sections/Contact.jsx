@@ -48,16 +48,14 @@ export const Contact = () => {
     e.preventDefault();
 
     setIsLoading(true);
-    setSubmitStatus({ type: null, message: "" });
+    setSubmitStatus({
+      type: null,
+      message: "",
+    });
 
     try {
-      const accessKey = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
-
-      if (!accessKey) {
-        throw new Error(
-          "Web3Forms configuration is missing. Please check your environment variables.",
-        );
-      }
+      // Web3Forms Access Key
+      const accessKey = "77f4df38-a84e-43b6-b253-42b3295e101a";
 
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
@@ -82,11 +80,13 @@ export const Contact = () => {
         );
       }
 
+      // Success
       setSubmitStatus({
         type: "success",
         message: "Message sent successfully! I'll get back to you soon.",
       });
 
+      // Clear form
       setFormData({
         name: "",
         email: "",
